@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+.display-container {
+  display: flex;
+  width: 380px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  border: 1px solid black;
+  width: 350px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.digits-container {
+  display: flex;
+}
+
+.numbers {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.numbers button {
+  width: 80px;
+  height: 30px;
+}
+
+.operators {
+  display: flex;
+  width: 80px;
+  height: 300px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.operators button {
+  width: 65px;
+  height: 25px;
+}
+
+
